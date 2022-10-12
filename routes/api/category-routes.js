@@ -50,6 +50,7 @@ router.put("/:id", async (req, res) => {
         id: req.params.id,
       },
     });
+    res.status(200).json(catData);
   } catch (err) {}
 });
 router.delete("/:id", async (req, res) => {
