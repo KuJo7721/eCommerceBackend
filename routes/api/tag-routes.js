@@ -67,10 +67,3 @@ router.delete('/:id', async (req, res) => {
 });
 
 module.exports = router;
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
